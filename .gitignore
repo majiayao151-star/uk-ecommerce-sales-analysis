@@ -1,0 +1,27 @@
+# macOS 与编辑器生成文件
+.DS_Store
+.Rhistory
+.RData
+.vscode/
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Matplotlib 本地字体缓存
+.matplotlib/
+
+# 原始数据从 UCI 下载，不提交到仓库
+数据/原始数据/*
+!数据/原始数据/README.md
+
+# 可由清洗脚本重新生成的大型明细文件
+数据/处理后数据/正常销售.csv
+数据/处理后数据/客户销售.csv
+数据/处理后数据/取消退货.csv
+数据/处理后数据/排除记录.csv
+
+# 本地写作草稿
+文档2.docx
